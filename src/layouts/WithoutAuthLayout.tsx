@@ -8,7 +8,7 @@ export default function WithoutAuthLayout() {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40"
         style={{
-          backgroundImage: "url('../src/assets/images/bg.png')",
+          backgroundImage: "url('/images/bg.png')",
         }}
       />
 
@@ -18,7 +18,7 @@ export default function WithoutAuthLayout() {
           {/* Logo Section */}
           <div className="hidden md:flex justify-center">
             <img
-              src="../src/assets/images/logo.png"
+              src="/images/logo.png"
               alt="Free Shops Logo"
               className="w-[251px] h-[248px] object-contain"
             />

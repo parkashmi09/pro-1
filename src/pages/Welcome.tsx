@@ -1,5 +1,4 @@
 // import { useNavigate } from "react-router-dom";
-import logo from "../assets/images/logo.png";
 
 export default function Welcome() {
 //   const navigate = useNavigate();
@@ -8,7 +7,7 @@ export default function Welcome() {
     <div className="w-full max-w-[650px]">
       <div className="bg-white rounded-[20px] p-12 text-center">
         <img
-          src={logo}
+          src="/images/logo.png"
           alt="Free Shops Logo"
           className="w-[100px] h-[100px] object-contain mx-auto mb-8"
         />

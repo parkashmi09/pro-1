@@ -8,7 +8,7 @@ export default function WithAuthLayout() {
     <div
       className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40"
       style={{
-        backgroundImage: "url('../src/assets/images/bg.png')",
+        backgroundImage: "url('/images/bg.png')",
       }}
     />
 
