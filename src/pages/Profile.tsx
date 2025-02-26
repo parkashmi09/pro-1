@@ -121,7 +121,7 @@ export default function Profile() {
               <Camera className="w-12 h-12 text-[#7F7F7F]" />
             </div>
           </div>
-          <h2 className="text-[#199FB1] text-[14px]">Upload Profile Pitchers</h2>
+          <h2 className="text-[#199FB1] text-[14px]">Upload Profile Picture</h2>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4 px-8">
